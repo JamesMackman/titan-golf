@@ -20,17 +20,17 @@ body {
 
 /* Header */
 header {
-    background-color: lightcoral;
+    background-color: rgb(11, 7, 248);
 }
 
 /* Main content */
 main {
-    background-color: lightblue;
+    background-color: rgb(243, 7, 58);
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
 
 /* Footer */
 footer {
-    background-color: orange;
+    background-color: rgb(37, 224, 46);
 }
