@@ -3,38 +3,43 @@
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 /* General styles */
 body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  /* Generic project styles */
-  color: #3a3a3a;
-  font-family: "Montserrat", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+    font-family: "Montserrat", sans-serif;
 }
 
 /* Header */
 header {
-  background-color: rgb(8, 247, 68);
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
 h1 {
-  font-family: "Merriweather Sans", sans-serif;
+    font-family: "Merriweather Sans", sans-serif;
 }
 
 /* Main content */
 main {
-  background-color: rgb(243, 7, 58);
-  /* Make main element take up any surplus space to push footer down */
-  flex: 1 0 auto;
+    background-color: rgb(243, 7, 58);
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
 }
 
 /* Footer */
 footer {
-  background-color: rgb(37, 224, 46);
+    background-color: rgb(37, 224, 46);
 }
