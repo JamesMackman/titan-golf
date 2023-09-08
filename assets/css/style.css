@@ -88,7 +88,7 @@ main {
     background-color: rgb(243, 7, 58);
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 50px;
+    margin-top: 123px;
 }
 
 /* Footer */
@@ -106,7 +106,7 @@ main {
     color: #003300
 }
 
-/*Media query: tablets and larger (768px and up)*/
+/* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
     /* Header */
@@ -139,7 +139,7 @@ main {
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
-        margin-top: 0;
+        margin-top: 150px;
     }
 }
 
@@ -147,5 +147,11 @@ main {
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+
+    /* Main content */
+    main {
+        /* Change the margin size to show the main content clearly */
+        margin-top: 90px
     }
 }
