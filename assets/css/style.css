@@ -87,14 +87,19 @@ nav {
 main {
   /* Make main element take up any surplus space to push footer down */
   flex: 1 0 auto;
-  margin-top: 124px;
+  margin-top: 103px;
+  color: #ffffff;
+}
+
+main > h2 {
+  color: #ffffff;
 }
 
 /* Opening section */
 #opening {
   height: 600px;
   width: 100%;
-  background: url(../images/golf-3.jpeg) no-repeat center center/cover;
+  background: url(../images/golf-3.jpeg);
 }
 
 /* Footer */
@@ -116,7 +121,7 @@ main {
 @media screen and (min-width: 363px) {
   /* Main content to fit just below header */
   main {
-    margin-top: 84px;
+    margin-top: 64px;
   }
 }
 
@@ -152,14 +157,14 @@ main {
   /* Main content */
   main {
     /* Push main content down to accommodate larger header */
-    margin-top: 150px;
+    margin-top: 130px;
   }
 }
 
 /* Media query: 870px and up */
 @media screen and (min-width: 870px) {
   main {
-    margin-top: 92px;
+    margin-top: 73px;
   }
 }
 
@@ -172,6 +177,6 @@ main {
   /* Main content */
   main {
     /* Change the margin size to show the main content clearly */
-    margin-top: 92px;
+    margin-top: 72px;
   }
 }
