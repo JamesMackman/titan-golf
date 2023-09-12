@@ -308,6 +308,13 @@ h2 {
   /* Center the text within the overlay */
 }
 
+/* Image section */
+.image {
+  max-width: 50%;
+  float: left;
+  margin-right: 20px;
+}
+
 /* Footer */
 #social-links {
   text-align: center;
