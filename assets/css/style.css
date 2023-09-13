@@ -30,7 +30,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  padding: 1rem;
+  padding: 0 1rem;
   z-index: 99;
   background-color: #fff;
   box-shadow: 0 2px 2px #3a3a3a;
