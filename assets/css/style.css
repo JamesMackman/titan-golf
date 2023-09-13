@@ -180,7 +180,8 @@ td {
   text-align: left;
 }
 
-/* Membership form*/
+/* Membership page */
+/* Membership form section */
 #membership {
   background-image: url(../images/golf-5.jpg);
   background-size: cover;
@@ -232,6 +233,16 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #005700;
+}
+
+/* Facilities page */
+/* Driving range section */
+#driving-range {
+  background-image: url(../images/golf-7.jpeg);
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  position: relative;
 }
 
 /* Footer */
