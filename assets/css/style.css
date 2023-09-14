@@ -30,7 +30,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  padding: 0 1rem;
+  padding: 1rem;
   z-index: 99;
   background-color: #fff;
   box-shadow: 0 2px 2px #3a3a3a;
@@ -57,10 +57,20 @@ h1 {
   letter-spacing: 2px;
   list-style-type: none;
   display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 0;
+  right: 0;
+  box-shadow: 0 2px 2px #3a3a3a;
+  z-index: 100;
+  text-align: center;
+  background-color: #ffffff;
 }
 
 #navbar > li {
-  margin-right: 1rem;
+  margin-right: 0;
+  padding: 1rem 0;
+  border-bottom: 1px solid #3a3a3a;
 }
 
 .active {
@@ -81,7 +91,7 @@ nav {
 
 /* Nav toggle */
 #nav-toggle:checked ~ nav {
-  display: block;
+  display: flex;
 }
 
 #nav-toggle {
@@ -90,6 +100,8 @@ nav {
 
 .nav-toggle-label {
   font-size: 2rem;
+  display: block;
+  cursor: pointer;
 }
 
 /* Main content */
@@ -180,8 +192,7 @@ td {
   text-align: left;
 }
 
-/* Membership page */
-/* Membership form section */
+/* Membership form*/
 #membership {
   background-image: url(../images/golf-5.jpg);
   background-size: cover;
@@ -235,16 +246,6 @@ input[type="submit"]:hover {
   background-color: #005700;
 }
 
-/* Facilities page */
-/* Driving range section */
-#driving-range {
-  background-image: url(../images/golf-7.jpeg);
-  height: 200px;
-  width: 100%;
-  text-align: center;
-  position: relative;
-}
-
 /* Footer */
 #social-links {
   text-align: center;
@@ -261,12 +262,6 @@ input[type="submit"]:hover {
 }
 
 /* Media queries */
-@media screen and (min-width: 363px) {
-  main {
-    margin-top: 64px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   nav {
     display: block;
