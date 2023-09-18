@@ -112,6 +112,21 @@ main {
 }
 
 /* Home page */
+
+/* Welcome section */
+#welcome {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#welcome p {
+  font-size: 1rem;
+}
+
 /* Hero section */
 #hero {
   height: 300px;
@@ -139,45 +154,13 @@ h2 {
   text-align: center;
 }
 
-/* Container for Image and Welcome sections */
-.image-welcome-container {
-  position: relative;
-  margin: 0;
-}
-
-/* Image section */
-#image-section {
-  position: relative;
-  z-index: 1;
-}
-
-#image-section img {
-  width: 100%;
-  height: auto;
-}
-
-/* Welcome section */
-#welcome {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgba(255, 255, 255, 0.7);
-  padding: 20px;
-  z-index: 2;
-  width: 100%;
-  box-sizing: border-box;
-}
-#welcome p {
-  font-size: 1rem;
-}
-
 /* Opening hours section */
 #opening-hours {
   position: relative;
+  /* Change to relative for normal document flow */
   background-color: #f5f5f5;
   padding: 20px;
   text-align: center;
-  margin-top: 100px;
 }
 
 #opening-hours h3 {
