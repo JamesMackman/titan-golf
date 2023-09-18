@@ -116,15 +116,18 @@ main {
 /* Welcome section */
 #welcome {
   position: relative;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 20px;
   width: 100%;
   box-sizing: border-box;
   text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 #welcome p {
   font-size: 1rem;
+  color: #333;
 }
 
 /* Hero section */
@@ -137,10 +140,12 @@ main {
 
 h2 {
   font-size: 1.5rem;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 #overlay-text {
-  color: #ffffff;
+  color: black;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -152,19 +157,24 @@ h2 {
   min-height: 100px;
   padding: 20px 10px;
   text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* Opening hours section */
 #opening-hours {
   position: relative;
-  /* Change to relative for normal document flow */
   background-color: #f5f5f5;
   padding: 20px;
   text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 #opening-hours h3 {
   font-size: 1.5rem;
+  color: #333;
 }
 
 table {
@@ -177,6 +187,7 @@ td {
   text-align: left;
   padding: 8px;
   border: 1px solid black;
+  color: #333;
 }
 
 td {
