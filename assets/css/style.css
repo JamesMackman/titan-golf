@@ -245,8 +245,8 @@ video {
   height: auto;
   max-width: 100%;
   height: auto;
-  border: 2px solid #333; 
-  border-radius: 10px; 
+  border: 2px solid #333;
+  border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
@@ -275,6 +275,33 @@ p {
   /* Standard font size */
   color: #666;
   /* Slightly darker text color */
+}
+
+/* Driving range section */
+#driving-range {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+#mini-header {
+  font-size: 1.5rem;
+}
+
+.text-content {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.image-content img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #333;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
 }
 
 /* Membership page */
