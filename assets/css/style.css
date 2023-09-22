@@ -277,8 +277,10 @@ p {
   /* Slightly darker text color */
 }
 
-/* Driving range section */
-#driving-range {
+/* Image sections */
+#driving-range,
+#putting-green,
+#clubhouse {
   text-align: center;
   padding: 20px;
   background-color: #f0f0f0;
@@ -294,7 +296,8 @@ p {
 }
 
 .image-content img,
-.putting-image img {
+.putting-image img,
+.clubhouse-image img {
   max-width: 100%;
   height: auto;
   border: 2px solid #333;
@@ -303,13 +306,6 @@ p {
   display: block;
   margin: 0 auto;
   margin-top: 15px;
-}
-
-/* Putting green section */
-#putting-green {
-  text-align: center;
-  padding: 20px;
-  background-color: #f0f0f0;
 }
 
 /* Membership page */
