@@ -294,9 +294,6 @@ p {
 /* Membership page */
 /* Membership form */
 #membership {
-  background-image: url(../images/golf-5.jpg);
-  background-size: cover;
-  background-position: 1504px;
   text-align: center;
   color: #006400;
 }
@@ -397,10 +394,18 @@ input[type="submit"]:hover {
   #navbar > li {
     font-size: 1.2rem;
   }
+
+  p {
+    font-size: 1.1rem;
+  }
 }
 
 @media screen and (min-width: 992px) {
   #navbar > li {
     font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 1.2rem;
   }
 }
