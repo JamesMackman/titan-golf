@@ -343,7 +343,7 @@ textarea {
 }
 
 input[type="submit"] {
-  background-color: var(--accent-color);
+  background-color: #006400;
   color: white;
   padding: 12px 5px;
   border: none;
