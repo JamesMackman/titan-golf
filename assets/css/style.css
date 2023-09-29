@@ -295,7 +295,6 @@ p {
 /* Membership form */
 #membership {
   text-align: center;
-  color: #006400;
 }
 
 form {
@@ -324,7 +323,6 @@ textarea {
   border-radius: 3px;
   font-size: 16px;
   background-color: transparent;
-  color: white;
 }
 
 textarea {
