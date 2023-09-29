@@ -255,11 +255,6 @@ section {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
-#mini-header {
-  font-size: 1.2rem;
-  color: black;
-}
-
 p {
   font-size: 1rem;
   /* Standard font size */
