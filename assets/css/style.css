@@ -121,7 +121,6 @@ main {
 }
 
 /* Home page */
-
 /* Welcome section */
 #welcome {
   position: relative;
@@ -257,9 +256,7 @@ section {
 
 p {
   font-size: 1rem;
-  /* Standard font size */
   color: #666;
-  /* Slightly darker text color */
 }
 
 /* Image sections */
@@ -349,7 +346,6 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #ffa500;
-  /* Orange */
 }
 
 /* Footer */
@@ -370,45 +366,41 @@ input[type="submit"]:hover {
 
 /* Media queries */
 @media screen and (min-width: 768px) {
-  /* Show the navbar next to the header and space it out evenly */
-  header {
-    flex-direction: row;
-    justify-content: space-between;
+  /* Header */
+  nav {
+    display: flex;
+    position: relative;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
   }
 
   #navbar {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: auto;
-    position: static;
-    background-color: transparent;
+    flex-direction: row;
+    justify-content: space-between;
     box-shadow: none;
-    padding: 0;
-    margin: 0;
   }
 
-  #menu {
-    display: flex;
-    align-items: center;
-  }
-
-  #menu a {
+  #navbar > li {
+    padding: 0 1rem;
+    border-bottom: none;
     font-size: 1rem;
-    margin-right: 20px;
-    text-decoration: none;
-    color: white;
+  }
+
+  .nav-toggle-label {
+    display: none;
   }
 }
 
 @media screen and (min-width: 870px) {
-  main {
-    margin-top: 73px;
+  #navbar > li {
+    font-size: 1.2rem;
   }
 }
 
 @media screen and (min-width: 992px) {
-  main {
-    margin-top: 72px;
+  #navbar > li {
+    font-size: 1.4rem;
   }
 }
