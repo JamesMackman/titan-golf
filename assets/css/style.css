@@ -388,6 +388,22 @@ input[type="submit"]:hover {
   }
 }
 
+/* The Course page */
+video {
+  width: 1000px;
+}
+.scorecard-image img {
+  width: 1000px;
+}
+
+/* Images */
+.image-content img,
+.putting-image img,
+.clubhouse-image img,
+.hero-image img {
+  width: 1000px;
+}
+
 @media screen and (min-width: 870px) {
   #navbar > li {
     font-size: 1.2rem;
