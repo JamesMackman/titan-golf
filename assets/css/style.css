@@ -470,42 +470,48 @@ footer {
     color: white;
   }
 
-  /* Hero section */
-  .hero-container {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-      text-align: left;
-  }
+/* Hero section */
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+}
 
-  #hero {
-      background-color: var(--secondary-color);
-      padding: 20px;
-      flex: 1;
-  }
+#hero {
+    flex: 1;
+    background: url(../images/pexels-photo-6256824.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    position: relative;
+}
 
-  /* Hero image */
-  .hero-image {
-      max-width: 100%;
-      height: auto;
-      border: 2px solid #333;
-      border-radius: 10px;
-      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-      flex: 1;
-      margin-top: 0;
-      border: 0;
-      box-shadow: 0 0 0;
-  }
+/* Hero image */
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    flex: 1;
+    margin-top: 0;
+    border: 0;
+    box-shadow: 0 0 0;
+    position: relative;
+    z-index: 1;
+}
 
-  /* Paragraph styles inside hero section */
-  #hero p {
-      font-size: 1rem;
-      color: #333;
-      background-color: var(--secondary-color);
-      padding: 20px;
-      flex: 1;
-  }
+/* Paragraph styles inside hero section */
+#hero p {
+    font-size: 1rem;
+    color: #333;
+    background-color: var(--secondary-color);
+    padding: 20px;
+    flex: 1;
+    position: relative;
+    z-index: 2;
+}
 
 @media screen and (min-width: 870px) {
   #navbar > li {
