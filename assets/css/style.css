@@ -145,6 +145,37 @@ main {
   background-color: var(--secondary-color);
 }
 
+.hero-content {
+  flex: 1;
+  padding: 20px;
+  position: relative;
+  z-index: 2;
+  background-color: white;
+  border-radius: 50%;
+  border: 3px solid var(--primary-color);
+  max-width: 300px;
+  margin: 10px auto;
+  padding: 15px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Background image styles */
+.background-image,
+.hero-image {
+  width: 80%;
+  max-height: 50vh;
+  margin: 10px auto;
+  display: block;
+  border: 2px solid #333;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
 /* History section */
 #history {
   text-align: center;
@@ -158,9 +189,10 @@ main {
 /* Opening hours section */
 #opening-hours {
   position: relative;
-  background-color: var(--secondary-color);
+  background-color: white;
   padding: 20px;
   text-align: center;
+  border: 2px solid var(--primary-color);
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
@@ -255,7 +287,7 @@ section {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 0.95rem;
 }
 
 /* Image sections */
@@ -476,7 +508,6 @@ footer {
     align-items: center;
     text-align: center;
     position: relative;
-    /* Add position relative for circular border */
   }
 
   /* Circular border for hero content */
