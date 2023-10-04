@@ -469,80 +469,93 @@ footer {
     color: white;
   }
 
-   /* Hero section */
-   .hero-container {
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-       text-align: center;
-   }
+  /* Hero section */
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    /* Add position relative for circular border */
+  }
 
-   .hero-content {
-       flex: 1;
-       padding: 20px;
-       position: relative;
-       z-index: 2;
-   }
+  /* Circular border for hero content */
+  .hero-content {
+    flex: 1;
+    padding: 20px;
+    position: relative;
+    z-index: 2;
+    background-color: white;
+    border-radius: 50%;
+    border: 3px solid var(--primary-color);
+    width: 270px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-   .images-container {
-       display: flex;
-       flex-direction: row;
-       flex-wrap: wrap;
-       margin: 20px auto;
-       max-width: 800px;
-   }
+  .images-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    max-width: 800px;
+  }
 
-   /* Background image styles */
-   .background-image,
-   .hero-image {
-       width: 50%;
-       height: auto;
-       object-fit: cover;
-       border: 2px solid #333;
-       border-radius: 10px;
-       box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-   }
+  /* Background image styles */
+  .background-image,
+  .hero-image {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
 
-   /* Paragraph styles inside hero section */
-   #hero p {
-       font-size: 1rem;
-       color: #333;
-       background-color: var(--secondary-color);
-       padding: 20px;
-       flex: 1;
-       position: relative;
-       z-index: 2;
-   }
+  /* Paragraph styles inside hero section */
+  #hero p {
+    font-size: 1rem;
+    color: #333;
+    background-color: var(--secondary-color);
+    padding: 20px;
+    flex: 1;
+    position: relative;
+    z-index: 2;
+  }
 
-   /* History section */
-   #history {
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-       margin-top: 20px;
-   }
+  /* History section */
+  #history {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
 
-   /* Opening hours section */
-   #opening-hours {
-       margin-top: 20px;
-   }
+  /* Opening hours section */
+  #opening-hours {
+    margin-top: 20px;
+  }
+}
 
-   @media screen and (min-width: 870px) {
-       #navbar>li {
-           font-size: 1.2rem;
-       }
+@media screen and (min-width: 870px) {
+  #navbar > li {
+    font-size: 1.2rem;
+  }
 
-       p {
-           font-size: 1.1rem;
-       }
-   }
+  p {
+    font-size: 1.1rem;
+  }
+}
 
-   @media screen and (min-width: 992px) {
-       #navbar>li {
-           font-size: 1.4rem;
-       }
+@media screen and (min-width: 992px) {
+  #navbar > li {
+    font-size: 1.4rem;
+  }
 
-       p {
-           font-size: 1.2rem;
-       }
-   }
+  p {
+    font-size: 1.2rem;
+  }
+}
