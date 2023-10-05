@@ -335,7 +335,7 @@ p {
 }
 
 /* Style for headings */
-main h3 {
+#mini-header {
   font-size: 1.5rem;
   color: var(--primary-color);
 }
