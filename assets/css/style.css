@@ -613,6 +613,35 @@ footer {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
+/* Facilities page */
+/* Image sections */
+#driving-range,
+#putting-green,
+#clubhouse {
+  text-align: center;
+  padding: 20px;
+  background-color: var(--secondary-color);
+}
+
+.text-content {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.image-content img,
+.putting-image img,
+.clubhouse-image img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #333;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+  width: 50%;
+}
+
 @media screen and (min-width: 870px) {
   #navbar > li {
     font-size: 1.2rem;
