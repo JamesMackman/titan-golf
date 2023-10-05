@@ -253,7 +253,7 @@ video {
   margin-bottom: 20px;
 }
 
-/* Scorecard image */
+/* Scorecard image container */
 .scorecard-image {
   max-width: 100%;
   overflow: hidden;
@@ -262,8 +262,8 @@ video {
   align-items: center;
 }
 
+/* Scorecard image */
 .scorecard-image img {
-  width: 100%;
   height: auto;
   max-width: 100%;
   height: auto;
@@ -570,6 +570,27 @@ footer {
   #opening-hours {
     margin-top: 20px;
   }
+}
+
+/* The Course page */
+
+/* Scorecard image container */
+.scorecard-image {
+  max-width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+/* Scorecard image itself */
+.scorecard-image img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #333;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (min-width: 870px) {
