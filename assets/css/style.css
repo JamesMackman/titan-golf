@@ -300,10 +300,6 @@ p {
   background-color: var(--secondary-color);
 }
 
-#mini-header {
-  font-size: 1.5rem;
-}
-
 .text-content {
   padding: 10px;
   margin-bottom: 20px;
@@ -314,9 +310,9 @@ p {
 .clubhouse-image img {
   max-width: 100%;
   height: auto;
-  border: 2px solid #333;
+  border: 1px solid #333;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
   display: block;
   margin: 0 auto;
   margin-top: 15px;
