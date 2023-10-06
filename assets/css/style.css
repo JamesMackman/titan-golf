@@ -34,6 +34,22 @@ h3 {
   font-style: italic;
 }
 
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+  background-color: var(--secondary-color);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  font-size: 0.95rem;
+}
+
 /* Header */
 header {
   position: fixed;
@@ -266,30 +282,12 @@ video {
 .scorecard-image img {
   height: auto;
   max-width: 100%;
-  height: auto;
   border: 2px solid #333;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* Facilities page */
-/* Main content */
-main {
-  padding: 20px;
-}
-
-/* Individual sections */
-section {
-  margin-bottom: 20px;
-  background-color: var(--secondary-color);
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-}
-
-p {
-  font-size: 0.95rem;
-}
 
 /* Image sections */
 #driving-range,
@@ -356,7 +354,6 @@ p {
 }
 
 /* Style for the membership form */
-
 #membership {
   background-image: url(../images/form.jpg);
   background-size: cover;
@@ -489,54 +486,6 @@ footer {
 
   .nav-toggle-label {
     display: none;
-  }
-
-  /* Footer */
-  footer {
-    background-color: var(--primary-color);
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-  }
-
-  .footer-content {
-    max-width: 800px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .contact-info {
-    flex-basis: 100%;
-    text-align: center;
-    padding: 0 20px;
-    color: white;
-    margin-bottom: 20px;
-  }
-
-  #social-links {
-    flex-basis: 100%;
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #social-links li {
-    margin: 0;
-    padding: 0 30px;
-  }
-
-  #social-links a {
-    text-decoration: none;
-  }
-
-  #social-links i {
-    font-size: 2rem;
-    color: white;
   }
 
   /* Home page */
@@ -693,6 +642,54 @@ footer {
   #membership {
     background-position: center;
     position: relative;
+  }
+
+  /* Footer */
+  footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contact-info {
+    flex-basis: 100%;
+    text-align: center;
+    padding: 0 20px;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  #social-links {
+    flex-basis: 100%;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #social-links li {
+    margin: 0;
+    padding: 0 30px;
+  }
+
+  #social-links a {
+    text-decoration: none;
+  }
+
+  #social-links i {
+    font-size: 2rem;
+    color: white;
   }
 }
 
