@@ -547,8 +547,8 @@ footer {
     background-color: white;
     border-radius: 50%;
     border: 2px solid var(--primary-color);
-    width: 270px;
-    height: 270px;
+    width: 300px;
+    min-height: 280px;
     display: flex;
     flex-direction: column;
     justify-content: center;
