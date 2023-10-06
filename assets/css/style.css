@@ -333,8 +333,14 @@ p {
 
 /* Style for headings */
 #mini-header {
-  font-size: 3rem;
+  font-size: 2rem;
   color: var(--primary-color);
+}
+
+/* Style for the phone number and email address */
+#contact address a {
+  color: var(--primary-color);
+  font-weight: bolder;
 }
 
 /* Style for list items in the benefits section */
@@ -643,6 +649,19 @@ footer {
     margin: 0 auto;
     margin-top: 15px;
     width: 50%;
+  }
+
+  /* Membership page */
+
+  #mini-header {
+    font-size: 3rem;
+  }
+
+  #benefits,
+  #contact,
+  #membership {
+    margin-left: 20%;
+    margin-right: 20%;
   }
 }
 
