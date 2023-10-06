@@ -357,8 +357,17 @@ p {
 
 /* Style for the membership form */
 
+#membership {
+  background-image: url(../images/form.jpg);
+  background-size: cover;
+  background-position: 50%;
+  flex-grow: 1;
+}
+
 #membership p {
   margin-top: 15px;
+  font-weight: bolder;
+  color: var(--secondary-color);
 }
 
 #membership form {
@@ -373,7 +382,7 @@ p {
   display: block;
   font-weight: bold;
   margin-bottom: 5px;
-  color: #333;
+  color: var(--accent-color);
 }
 
 /* Style for form inputs and select */
@@ -388,6 +397,7 @@ p {
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 /* Style for form submit button */
@@ -678,6 +688,11 @@ footer {
   #membership {
     margin-left: 20%;
     margin-right: 20%;
+  }
+
+  #membership {
+    background-position: center;
+    position: relative;
   }
 }
 
