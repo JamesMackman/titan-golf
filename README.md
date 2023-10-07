@@ -23,3 +23,53 @@ Titan Golf club is a site that targets an audiance of all ages and ability level
 6. **Responsive Design**: The website is designed to work seamlessly on various screen sizes, including mobile devices and desktops.
 
 7. **Google Fonts**: We use Google Fonts to enhance the typography and overall visual appeal of the site.
+
+### Existing features 
+
+- __Navigation Bar__ 
+
+    - Present on every page, the fully responsive navigation bar features links to the Logo, Home page, Gallery, and Sign Up page. It maintains consistency across all pages, ensuring effortless navigation.
+    - This section enables users to seamlessly move between pages on all devices, eliminating the need to rely on the 'back' button to return to the previous page.
+
+- __Welcome section__ 
+
+- __The opening images__ 
+
+- __History secton__ 
+
+- __Opening hours section__
+
+- __The footer__
+
+- __The Course page__ 
+
+- __The scorecard section__
+
+- __The facilities page__
+
+- __The membership page__
+
+
+### Features Left to Implement
+
+
+## Testing
+
+
+### Validator Testing
+
+
+### Unfixed Bugs
+
+
+## Credits
+
+### Content 
+
+### Media
+
+
+## Other General Project Advice
+
+
+
