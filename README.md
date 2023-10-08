@@ -56,6 +56,8 @@ Titan Golf club is a site that targets an audiance of all ages and ability level
   - This section is a simple as it gets. Its purpose is to show when the club is open for business.
   - The user will gain knowledge and understanding on when they can play golf.
 
+![Opening hours](media/titan_golf_opening-hours.png)
+
 - **The footer**
 
   - The footer includes information on the contact details of the club and also different links to social media pages.
