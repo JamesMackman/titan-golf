@@ -35,9 +35,9 @@ Titan Golf club is a site that targets an audiance of all ages and ability level
 
   - The welcome section is simple and precise. It's a piece of text within a green tile that invites the user into the webpage.
 
-- **The opening images**
+- **The opening section**
 
-  - The opening images introduce the user to scenic views on the golf course giving them a taste of what's to come.
+  - The opening section introduces the user to a peice of text directly in the middle of the screen containing information about the loaction of the club as well as images of scenic views on the golf course.
   - The user will get drawn in to the images and want to find out more about the golf club.
 
 - **History secton**
