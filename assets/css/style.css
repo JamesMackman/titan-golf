@@ -343,7 +343,7 @@ video {
 
 /* Style for list items in the benefits section */
 #benefits ul {
-  list-style-type: disc;
+  list-style-type: none;
   padding-left: 20px;
   margin-top: 15px;
 }
