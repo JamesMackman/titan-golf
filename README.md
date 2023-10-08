@@ -72,19 +72,30 @@ Titan Golf club is a site that targets an audiance of all ages and ability level
   - The user will get to know the golf course and what each hole looks like. They will also gain an understanding on the different yardages of each hole.
 
 ![The course](media/titan_golf_the-course.png)
+![Scorecard](media/titan_golf_scorecard.png)
 
 - **The facilities page**
 
   - On the facilities page, the user will find three different sections. Each section gives text information and shows images on what the club has to offer.
   - The first section shows a driving range. It gives information on how many bays are available and how many are inside and outside.
-  - The second section shows a putting green. It gives information on what is allowed and shows a picturesque image of the green itself.
-  - The third section shows the clubhouse and gives simple information about it as well as an image that will increase the confidence of the user if they're unsure on what it looks like.
+
+![Facilites](media/titan_golf_facilities.png)
+
+- The second section shows a putting green. It gives information on what is allowed and shows a picturesque image of the green itself.
+
+![Putting green](media/titan_golf_putting-green.png)
+
+- The third section shows the clubhouse and gives simple information about it as well as an image that will increase the confidence of the user if they're unsure on what it looks like.
+
+![Clubhouse](media/titan_golf_clubhouse.png)
 
 - **The membership page**
 
   - The membership page shows three different sections. The sections are laid out very clearly allowing any user easy access to all the information that is neccessary to become a member.
   - The first section gives benefits of the membership. This will draw the attention of the user and will increase their confidence in why they should sign up.
   - The second section is simple contact information. If the user hadn't already visited the footer of the website, then the contact information is again laid out, increasing the confidence of their ability to contact the club.
+
+![Membership](media/titan_golf_membership.png)
 
 ### Features Left to Implement
 
