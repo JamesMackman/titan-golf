@@ -29,6 +29,8 @@ Titan Golf club is a site that targets an audiance of all ages and ability level
   - Present on all four pages, the fully responsive navigation bar features links to the Logo, Home page, Gallery, and Sign Up page. It maintains consistency across all pages, ensuring effortless navigation.
   - This section enables users to seamlessly move between pages on all devices, eliminating the need to rely on the 'back' button to return to the previous page.
 
+![Nav Bar](media/titan_golf_nav.png)
+
 - **Welcome section**
 
   - The welcome section is simple and precise. It's a piece of text within a green tile that invites the user into the webpage.
