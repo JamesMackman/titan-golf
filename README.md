@@ -35,17 +35,21 @@ Titan Golf club is a site that targets an audiance of all ages and ability level
 
   - The welcome section is simple and precise. It's a piece of text within a green tile that invites the user into the webpage.
 
-![Welcome Section](media/titan_golf_welcome.png)
+![Welcome](media/titan_golf_welcome.png)
 
 - **The opening section**
 
   - The opening section introduces the user to a peice of text directly in the middle of the screen containing information about the loaction of the club as well as images of scenic views on the golf course.
   - The user will get drawn in to the images and want to find out more about the golf club.
 
+![Opening](media/titan_golf_opening.png)
+
 - **History secton**
 
   - The histroy section allows the user to get to know a little bit of information regarding the past history of the club.
   - The user will become partially knowledgable about the club's past and want to know more.
+
+![History](media/titan_golf_history.png)
 
 - **Opening hours section**
 
