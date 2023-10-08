@@ -64,10 +64,14 @@ Titan Golf club is a site that targets an audiance of all ages and ability level
   - The user will find all the information neccessary to get in contact with the club and feel confident in the simple nature of contacting.
   - The footer is the same on every pafe allowing increased user control.
 
+![Footer](media/titan_golf_footer.png)
+
 - **The Course page**
 
   - The course page has two simple sections, a video section showing of the course from a drone POV and a scorecard section where there is an image of the scorecard that is used when playing on the golf course.
   - The user will get to know the golf course and what each hole looks like. They will also gain an understanding on the different yardages of each hole.
+
+![The course](media/titan_golf_the-course.png)
 
 - **The facilities page**
 
