@@ -116,10 +116,17 @@ Titan Golf club is a site that targets an audiance of all ages and ability level
 
 ### Unfixed Bugs
 
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here - <https://jamesmackman.github.io/titan-golf/>
+
 ## Credits
 
 ### Content
 
 ### Media
-
-## Other General Project Advice
