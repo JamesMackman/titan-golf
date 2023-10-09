@@ -105,6 +105,12 @@ Titan Golf club is a site that targets an audiance of all ages and ability level
 
 ## Testing
 
+- I tested that this webpage works across mulitple different platforms such as: Chrome, safari and Firefox. 
+- I tested and confirmed that this project is responsive across all screen sizes from mobile to tablet, all the way upto desktop screens using chrome dev tools. 
+- I confirmed that all of the navigation links across all of the project work correctly and the user will get taken to the correct places. 
+- I confirmed that the links to different pages in the header and readable and easy to understand and navigate.
+- I have confirmed that the form works. It will only accept a submission when every box is filled out correctly and the submit button works. 
+
 ### Validator Testing
 
 - HTML
