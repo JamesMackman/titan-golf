@@ -116,6 +116,8 @@ Titan Golf club is a site that targets an audiance of all ages and ability level
 
 ### Unfixed Bugs
 
+- No unfixed bugs
+
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -129,4 +131,11 @@ The live link can be found here - <https://jamesmackman.github.io/titan-golf/>
 
 ### Content
 
+- The design for the header was taken from the Love Running walkthrough project.
+- The initial design for the footer was also taken from the Love Running walkthrough project.
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
+
 ### Media
+
+- The images on the homepage, the course page, and the faciities page were taken from [Pexels](https://www.pexels.com/) as well as the background image on the membership page.
+- The video on The course page was taken from [Youtube](https://www.youtube.com/watch?v=ezRs3jod0hU&t=9s)
