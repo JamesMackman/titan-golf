@@ -12,15 +12,15 @@ Titan Golf club is a site that targets an audiance of all ages and ability level
 
 1. **Home Page**: The website features an informative homepage with a welcome message, stunning visuals of the golf course, and quick links to other sections.
 
-2. **Facilities**: Explore our golf course, driving range, putting green, and clubhouse through images and descriptions.
+2. **Facilities**: The facilities page allows users to explore the driving range, putting green, and clubhouse through images and descriptions.
 
-3. **Course Information**: Get detailed information about our golf course, including scorecards, hole descriptions, and video tours.
+3. **Course Information**: Users are able to get information about the golf course, including scorecards and video tours.
 
-4. **Contact Us**: Reach out to us via email or phone for inquiries, assistance with membership applications, or any questions you may have.
+4. **Contact Information**: There are two options to find contact information on the website, through the footer and through the membershp page. They are easy to find to allow for very good user accessibility.  
 
 5. **Responsive Design**: The website is designed to work seamlessly on various screen sizes, including mobile devices and desktops.
 
-6. **Google Fonts**: We use Google Fonts to enhance the typography and overall visual appeal of the site.
+6. **Google Fonts**: Google Fonts were used to enhance the typography and overall visual appeal of the site.
 
 ### Existing features
 
@@ -118,8 +118,11 @@ Titan Golf club is a site that targets an audiance of all ages and ability level
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjamesmackman.github.io%2Ftitan-golf%2F).
 
 - CSS
+
   - No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjamesmackman.github.io%2Ftitan-golf%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css).
+
 - Accessibility
+
   - I confirmed that the colors and fonts chosen are simple and easy to read and accessible by running the webpage through lighthouse in chome devtools.
     ![Lighthouse](media/titan_golf_lighthouse.jpeg)
 
