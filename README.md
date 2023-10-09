@@ -105,11 +105,11 @@ Titan Golf club is a site that targets an audiance of all ages and ability level
 
 ## Testing
 
-- I tested that this webpage works across mulitple different platforms such as: Chrome, safari and Firefox. 
-- I tested and confirmed that this project is responsive across all screen sizes from mobile to tablet, all the way upto desktop screens using chrome dev tools. 
-- I confirmed that all of the navigation links across all of the project work correctly and the user will get taken to the correct places. 
+- I tested that this webpage works across mulitple different platforms such as: Chrome, safari and Firefox.
+- I tested and confirmed that this project is responsive across all screen sizes from mobile to tablet, all the way upto desktop screens using chrome dev tools.
+- I confirmed that all of the navigation links across all of the project work correctly and the user will get taken to the correct places.
 - I confirmed that the links to different pages in the header and readable and easy to understand and navigate.
-- I have confirmed that the form works. It will only accept a submission when every box is filled out correctly and the submit button works. 
+- I have confirmed that the form works. It will only accept a submission when every box is filled out correctly and the submit button works.
 
 ### Validator Testing
 
@@ -119,6 +119,9 @@ Titan Golf club is a site that targets an audiance of all ages and ability level
 
 - CSS
   - No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjamesmackman.github.io%2Ftitan-golf%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css).
+- Accessibility
+  - I confirmed that the colors and fonts chosen are simple and easy to read and accessible by running the webpage through lighthouse in chome devtools.
+    ![Lighthouse](media/titan_golf_lighthouse.jpeg)
 
 ### Unfixed Bugs
 
