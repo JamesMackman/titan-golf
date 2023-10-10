@@ -4,7 +4,7 @@ Welcome to the Titan Golf Club website repository! This README provides an overv
 
 ## About Titan Golf Club
 
-Titan Golf club is a site that targets an audiance of all ages and ability levels and introudces them to a modern, yet traditional, golf club. The aims of the site are to inform people on the golf club location, update them on the facilities that can be used every-day and create an easy way to become a member.
+Titan Golf club is a site that targets an audiance of all ages and ability levels and introduces them to a modern, yet traditional, golf club. The aims of the site are to inform people on the golf club location, update them on the facilities that can be used every-day and create an easy way to become a member.
 
 ![Responsive Mockup](media/titan_golf_mockup.png)
 
@@ -26,7 +26,7 @@ Titan Golf club is a site that targets an audiance of all ages and ability level
 
 - **Navigation Bar**
 
-  - Present on all four pages, the fully responsive navigation bar features links to the Logo, Home page, Gallery, and Sign Up page. It maintains consistency across all pages, ensuring effortless navigation.
+  - Present on all four pages, the fully responsive navigation bar features links to the Logo, Home page, Gallery, and Sign Up page. It maintains consistency across all pages, ensuring clear navigation.
   - This section enables users to seamlessly move between pages on all devices, eliminating the need to rely on the 'back' button to return to the previous page.
 
 ![Nav Bar](media/titan_golf_nav.png)
@@ -39,7 +39,7 @@ Titan Golf club is a site that targets an audiance of all ages and ability level
 
 - **The opening section**
 
-  - The opening section introduces the user to a peice of text directly in the middle of the screen containing information about the loaction of the club as well as images of scenic views on the golf course.
+  - The opening section introduces the user to a piece of text directly in the middle of the screen containing information about the loaction of the club as well as images of scenic views on the golf course.
   - The user will get drawn in to the images and want to find out more about the golf club.
 
 ![Opening](media/titan_golf_opening.png)
@@ -62,13 +62,13 @@ Titan Golf club is a site that targets an audiance of all ages and ability level
 
   - The footer includes information on the contact details of the club and also different links to social media pages.
   - The user will find all the information neccessary to get in contact with the club and feel confident in the simple nature of contacting.
-  - The footer is the same on every pafe allowing increased user control.
+  - The footer is consistent on every page allowing increased user control.
 
 ![Footer](media/titan_golf_footer.png)
 
 - **The Course page**
 
-  - The course page has two simple sections, a video section showing of the course from a drone POV and a scorecard section where there is an image of the scorecard that is used when playing on the golf course.
+  - The course page has two simple sections, a video section showing the course from a drone viewpoint and a scorecard section where there is an image of the scorecard that is used when playing on the golf course.
   - The user will get to know the golf course and what each hole looks like. They will also gain an understanding on the different yardages of each hole.
 
 ![The course](media/titan_golf_the-course.png)
@@ -85,15 +85,15 @@ Titan Golf club is a site that targets an audiance of all ages and ability level
 
 ![Putting green](media/titan_golf_putting-green.png)
 
-- The third section shows the clubhouse and gives simple information about it as well as an image that will increase the confidence of the user if they're unsure on what it looks like.
+- The third section shows the impressive clubhouse and provides simple information about it. An image is included to showcase its size and presence behind the 18th green.
 
 ![Clubhouse](media/titan_golf_clubhouse.png)
 
 - **The membership page**
 
   - The membership page shows three different sections. The sections are laid out very clearly allowing any user easy access to all the information that is neccessary to become a member.
-  - The first section gives benefits of the membership. This will draw the attention of the user and will increase their confidence in why they should sign up.
-  - The second section is simple contact information. If the user hadn't already visited the footer of the website, then the contact information is again laid out, increasing the confidence of their ability to contact the club.
+  - The first section outlines the benefits of membership. This will draw the attention of the user and will encourage people to join.
+  - The second section contains simple contact information. If the user hadn't already visited the footer of the website, then the contact information is again presented, encouraging users to contact the club.
 
 ![Membership](media/titan_golf_membership.png)
 
@@ -101,15 +101,15 @@ Titan Golf club is a site that targets an audiance of all ages and ability level
 
 - **Golf Course Reviews and Ratings**
 
-  - I could create a section/new page where golfers can leave reviews and ratings for both the golf course and its facilities. This would be a place where users can share their experiences, rate the course on various criteria (e.g., course condition, difficulty, scenery), and provide written reviews. This feature would help golfers understand the golf course and show the honest positives and negatives of the overall club.
+  - I could create a section/new page where golfers can leave reviews and ratings for both the golf course and its facilities. This would be a place where users can share their experiences, rate the course on various criteria (e.g., course condition, difficulty, scenery, clubhouse facilities), and provide written reviews. This feature would help golfers understand the golf course and show the honest positives and negatives of the overall club.
 
 ## Testing
 
-- I tested that this webpage works across mulitple different platforms such as: Chrome, safari and Firefox.
-- I tested and confirmed that this project is responsive across all screen sizes from mobile to tablet, all the way upto desktop screens using chrome dev tools.
+- I tested that this webpage works across mulitple different web browsers including Chrome, Safari and Firefox.
+- I tested and confirmed that this project is responsive across all screen sizes from mobile to tablet, all the way upto desktop screens using Chrome dev tools.
 - I confirmed that all of the navigation links across all of the project work correctly and the user will get taken to the correct places.
-- I confirmed that the links to different pages in the header and readable and easy to understand and navigate.
-- I have confirmed that the form works. It will only accept a submission when every box is filled out correctly and the submit button works.
+- I confirmed that the links to different pages in the header are readable and easy to understand and navigate.
+- I have confirmed that the form works with correct field validation applied. It will only accept a submission when every box is filled out correctly.
 
 ### Validator Testing
 
@@ -123,7 +123,7 @@ Titan Golf club is a site that targets an audiance of all ages and ability level
 
 - Accessibility
 
-  - I confirmed that the colors and fonts chosen are simple and easy to read and accessible by running the webpage through lighthouse in chome devtools.
+  - I confirmed that the colors and fonts chosen are simple and easy to read and accessible by running the webpage through Lighthouse in Chrome devtools.
     ![Lighthouse](media/titan_golf_lighthouse.jpeg)
 
 ### Unfixed Bugs
