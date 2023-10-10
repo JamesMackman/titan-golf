@@ -16,7 +16,7 @@ Titan Golf club is a site that targets an audiance of all ages and ability level
 
 3. **Course Information**: Users are able to get information about the golf course, including scorecards and video tours.
 
-4. **Contact Information**: There are two options to find contact information on the website, through the footer and through the membershp page. They are easy to find to allow for very good user accessibility.  
+4. **Contact Information**: There are two options to find contact information on the website, through the footer and through the membershp page. They are easy to find to allow for very good user accessibility.
 
 5. **Responsive Design**: The website is designed to work seamlessly on various screen sizes, including mobile devices and desktops.
 
